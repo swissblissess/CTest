@@ -10,10 +10,10 @@ struct contact contact_list[100];
 int contact_index = 0;
 
 enum menu
-
+//메뉴 출력할 함수 선언
 void print_menu() {
     printf("1. 연락처 입력\n");
-    
+    printf("2. ")
 }
 
 // Function: main
