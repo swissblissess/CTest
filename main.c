@@ -5,13 +5,15 @@ struct contact {
     char phone[20];
 };
 
-stuct contact contact_list[100];
+struct contact contact_list[100];
 
 int contact_index = 0;
 
-void print_menu() {
-    printf("1. 입력")
+enum menu
 
+void print_menu() {
+    printf("1. 연락처 입력\n");
+    
 }
 
 // Function: main
@@ -29,7 +31,7 @@ int main() {
         //메뉴 입력
         printf("메뉴를 선택하세요: ");
         scanf("%d", $menu);
-        
+
     }
 
 
